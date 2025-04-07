@@ -1,0 +1,1 @@
+which takes multiple delimeters. When you use strtok you only need to pass it the address of your buffer the first time - after that just pass in a null and it will give you the next token from the last one it gave you, returning a null pointer when there are no more.
