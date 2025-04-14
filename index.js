@@ -56,7 +56,7 @@ function getStarRating(total){
         case total >= -1.0 && total < 1.0:
           stars = 3;
           break;
-        case total >= 1.0 && total < 5.0:
+        case total >= 1.0 && total < 5.0:  
           stars = 4;
           break;
         case total >= 5.0:
